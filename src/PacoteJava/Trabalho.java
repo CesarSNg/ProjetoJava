@@ -8,10 +8,10 @@ public class Trabalho {
         double x, y, resultado;
         String aux = "";
 
-        aux = JOptionPane.showInputDialog(null, "Digite o primeiro número");
+        aux = JOptionPane.showInputDialog(null, "Digite o primeiro número:");
         x = Double.parseDouble(aux);
 
-        aux = JOptionPane.showInputDialog(null, "Digite o segundo número");
+        aux = JOptionPane.showInputDialog(null, "Digite o segundo número:");
         y = Double.parseDouble(aux);
 
         resultado = TesteTrabalho.multiplicaValor(x, y);
