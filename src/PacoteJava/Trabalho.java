@@ -16,7 +16,7 @@ public class Trabalho {
 
         resultado = TesteTrabalho.multiplicaValor(x, y);
 
-        JOptionPane.showMessageDialog(null, "A multiplicação é = " + resultado);
+        JOptionPane.showMessageDialog(null, "A multiplicação é " + resultado);
     }
 
 }
